@@ -1,0 +1,119 @@
+footer {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+    background-color: #5e2195;
+    height          : 1px;
+    width: 70%;
+}
+
+.container {
+    display      : grid;
+    place-items  : center;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.container img {
+    height: 100%;
+    width: 40%;
+}
+
+.submit-button {
+    background-color: #5e2195;
+    padding-left    : 20px;
+    padding-right   : 20px;
+    color: #ffffff;
+    
+}
+
+.menu-item{
+    font-size  : 16px;
+    color      : black;
+    margin-left: 80px;
+    
+}
+
+a.menu-item{
+    text-decoration: none;
+}
+
+.title {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #5e2195; 
+}
+
+.pizza-row {
+    background-color: #fff;
+    margin          : 8px;
+    padding         : 12px;
+    width           : 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.pizza-row{
+    text-decoration: none;
+}
+
+.pizza-details {
+    flex-grow: 1; /* Allows it to take remaining space */
+}
+
+.order-actions {
+    margin-top: auto; /* Push the order-actions to the bottom */
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.pizza-row-name {
+    color    : #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pizza-row-name-value {
+    color    : #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pizza-row-type {
+    color    : #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pizza-row-type-value {
+    color    : #000;
+    font-size: 16px;
+}
+
+.pizza-row-base {
+    color    : #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pizza-row-base-value {
+    color    : #000;
+    font-size: 16px;
+}
+
+.pizza-row-toppings {
+    color      : #000;
+    font-size  : 16px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.pizza-row-toppings-value {
+    color    : #000;
+    font-size: 16px;
+}
