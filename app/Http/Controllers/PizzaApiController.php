@@ -16,11 +16,6 @@ class PizzaApiController extends Controller
     }
 
     public function insert(Request $request){
-        // $pizza->name = request('name');
-        // $pizza->type     = request('type');
-        // $pizza->base     = request('base');
-        // $pizza->toppings = request('toppings');
-        
         $pizza           = new Pizza();
         $pizza->name     = $request->name;
         $pizza->type     = $request->type;
