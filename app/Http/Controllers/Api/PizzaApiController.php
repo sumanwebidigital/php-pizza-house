@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Pizza;
 use Exception;
-use GrahamCampbell\ResultType\Success;
 
 class PizzaApiController extends Controller
 {
