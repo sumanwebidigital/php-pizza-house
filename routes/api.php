@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PizzaApiController;
+use App\Http\Controllers\Api\PizzaApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +20,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('pizzas', [PizzaApiController::class, 'getPizzas']);
+Route::get('pizzas/search/{name}', [PizzaApiController::class, 'search']);
 Route::get('pizzas/{id}', [PizzaApiController::class, 'getPizzaById']);
 Route::post('pizzas', [PizzaApiController::class, 'insert']);
+Route::put('pizzas', [PizzaApiController::class, 'update']);
+Route::delete('pizzas/{id}', [PizzaApiController::class, 'delete']);
